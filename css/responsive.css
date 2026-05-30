@@ -44,6 +44,17 @@
   .feature-card { padding: 20px; }
   .promise-card { padding: 20px; }
   .cultural-card { padding: 20px; }
+  .diff-grid,
+  .services-grid,
+  .emotional-grid,
+  .values-grid,
+  .promise-grid,
+  .feature-grid,
+  .industry-grid,
+  .cultural-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 12px;
+  }
   .nav { padding: 12px 0; }
   .nav-logo img { max-height: 44px; width: auto; }
   .nav-logo span { font-size: 1.15rem; }
